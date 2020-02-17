@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>hungry hungry netart</title>
+  <meta name="description" content="VR">
+  <script src="https://aframe.io/releases/1.0.3/aframe.min.js"></script>
+  <link rel="stylesheet" href="./css/styles.css">
+
+</head>
+
+<body>
+  <a-scene background="color: pink;">
+    <a-assets>
+        <img id="body" src="images/caterpillar_skin.jpg">
+        <img id="face" src="images/face1.jpg">
+    </a-assets>
+    <a-sky src="images/leaves.jpg"></a-sky>
+    <a-entity text="value: IM SO HUNGRY." position="0.311 1.803 -1.087"></a-entity>
+    <a-entity id="ball" geometry="primitive: sphere" material="src: #body;" width="300" height="300" position="2.17897 1.76497 -2.24502">
+    </a-entity>
+    <a-entity id="ball-2" geometry="primitive: sphere" material="src: #body" position="3.28449 1.43849 -1.54085" scale="1 1.65 1">
+    </a-entity>
+    <a-entity id="ball-3" geometry="primitive: sphere" material="src: #body" position="4.09458 1.19048 -0.52727" scale="1.14 2.17 1">
+    </a-entity>
+    <a-entity id="ball-7" geometry="primitive: sphere" material="src: #body" position="4.06398 0.94823 0.55625" scale="1 2.05 1">
+    </a-entity>
+    <a-entity id="ball-8" geometry="primitive: sphere" material="src: #body" position="3.46264 0.85161 1.44282" scale="1 1.65 1">
+    </a-entity>
+    <a-entity id="ball-9" geometry="primitive: sphere" material="src: #body" position="2.41268 0.51719 1.59646" scale="1 1.32 1">
+    </a-entity>
+    <a-entity id="ball-10" geometry="primitive: sphere" material="src: #body;" position="1.63261 0.35464 1.19429">
+    </a-entity>
+    <a-entity id="ball-11" geometry="primitive: sphere" material="src: #body" position="0.65177 0.14503 0.46683" scale="1 0.74 1">
+    </a-entity>
+
+    <a-entity id="head" geometry="primitive: sphere" material="src: #face" position="1.31221 1.90452 -2.22866" scale="0.82 1.24 0.99" rotation="-0.02 200 20">
+    </a-entity>
+
+  </a-scene>
+</body>
+</html>
